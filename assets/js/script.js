@@ -86,7 +86,7 @@ function showProjects(projects) {
   const srtop = ScrollReveal({
     origin: "top",
     distance: "80px",
-    duration: 1000,
+    duration: 800,
     reset: true,
   });
 
@@ -112,34 +112,34 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 const srtop = ScrollReveal({
   origin: "top",
   distance: "80px",
-  duration: 1000,
+  duration: 800,
   reset: true,
 });
 
 /* SCROLL HOME */
-srtop.reveal(".home .content h3", { delay: 200 });
-srtop.reveal(".home .content p", { delay: 200 });
-srtop.reveal(".home .content .btn", { delay: 200 });
+srtop.reveal(".home .content h3", { delay: 100 });
+srtop.reveal(".home .content p", { delay: 100 });
+srtop.reveal(".home .content .btn", { delay: 100 });
 
-srtop.reveal(".home .image", { delay: 400 });
-srtop.reveal(".home .linkedin", { interval: 600 });
-srtop.reveal(".home .github", { interval: 600 });
-srtop.reveal(".home .gmail", { interval: 600 });
+srtop.reveal(".home .image", { delay: 200 });
+srtop.reveal(".home .linkedin", { interval: 300 });
+srtop.reveal(".home .github", { interval: 300 });
+srtop.reveal(".home .gmail", { interval: 300 });
 
 /* SCROLL ABOUT */
-srtop.reveal(".about .content h3", { delay: 200 });
-srtop.reveal(".about .content .tag", { delay: 200 });
-srtop.reveal(".about .content p", { delay: 200 });
-srtop.reveal(".about .content .box-container", { delay: 200 });
-srtop.reveal(".about .content .resumebtn", { delay: 200 });
+srtop.reveal(".about .content h3", { delay: 100 });
+srtop.reveal(".about .content .tag", { delay: 100 });
+srtop.reveal(".about .content p", { delay: 100 });
+srtop.reveal(".about .content .box-container", { delay: 100 });
+srtop.reveal(".about .content .resumebtn", { delay: 100 });
 
 /* SCROLL SKILLS */
-srtop.reveal(".skills .container", { interval: 200 });
-srtop.reveal(".skills .container .bar", { delay: 400 });
+srtop.reveal(".skills .container", { interval: 100 });
+srtop.reveal(".skills .container .bar", { delay: 200 });
 
 /* SCROLL PROJECTS */
-srtop.reveal(".work .box", { interval: 50 });
+srtop.reveal(".work .box", { interval: 100 });
 
 /* SCROLL CONTACT */
-srtop.reveal(".contact .contact-content", { delay: 400 });
-srtop.reveal(".contact .contact-content", { delay: 400 });
+srtop.reveal(".contact .contact-content", { delay: 200 });
+srtop.reveal(".contact .contact-content", { delay: 200 });
