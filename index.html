@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Favicon -->
+  <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+  <title>Portfolio | Ganesh</title>
+</head>
+
+<body>
+
+  <!-- navbar starts -->
+  <header>
+    <a href="/" class="logo"> Ganesh</a>
+
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- navbar ends -->
+
+  <!-- hero section starts -->
+
+  <section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+      <h2>Hi There,<br />I'm <span>Ganesh</span></h2>
+      <p>And I'm a <span class="typing-text"></span></p>
+      <a href="#about" class="btn"><span>About Me</span>
+        <i class="fas fa-arrow-circle-down"></i>
+      </a>
+      <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/ganeshr24/" target="_blank"><i
+                class="fab fa-linkedin"></i></a></li>
+          <li><a class="github" aria-label="GitHub" href="https://github.com/GaneshR24" target="_blank"><i
+                class="fab fa-github"></i></a></li>
+          <li><a class="gmail" aria-label="Gmail" href="mailto:ganeshravichandran24@gmail.com" target="_blank">
+              <i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="image">
+      <lottie-player draggable="false" class="tilt" src="https://assets3.lottiefiles.com/packages/lf20_mK7qUzkwYA.json"
+        background="transparent" speed="1" style="width: 500px; height: 450px;" loop autoplay></lottie-player>
+    </div>
+  </section>
+  <!-- hero section ends -->
+
+
+  <!-- about section starts -->
+  <section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+
+    <div class="row">
+      <div class="image">
+        <lottie-player draggable="false" class="tilt" src="https://assets8.lottiefiles.com/packages/lf20_o6spyjnc.json"
+          background="transparent" speed="1" style="width: 500px; height: 400px;" loop autoplay></lottie-player>
+      </div>
+      <div class="content">
+        <h3>I'm Ganesh</h3>
+        <span class="tag">Full Stack Developer (MERN)</span>
+
+        <p>I have a strong foundation in both front-end and back-end technologies, including programming languages such
+          as JavaScript, HTML, and CSS, and frameworks such as React and Node.js. I am eager to gain practical
+          experience in the industry and collaborate with others to build impactful web applications. <br /> With a
+          willingness to learn, I am excited to contribute to collaborative projects and gain practical experience in
+          the industry.
+          I am committed to delivering high-quality code that meets project requirements and exceeds expectations.
+          Overall, I am eager to take on new challenges and grow as a full-stack developer. </p>
+
+        <div class="resumebtn">
+          <a href="" target="_blank" class="btn"><span>Resume</span>
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- about section ends -->
+
+  <!-- skills section starts -->
+  <section class="skills" id="skills">
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+    <div class="container">
+      <div class="row" id="skillsContainer"></div>
+    </div>
+  </section>
+  <!-- skills section ends -->
+
+  <!-- work project section starts -->
+  <section class="work" id="work">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+    <div class="box-container">
+
+      <!-- Project - 1 -->
+      <div class="box tilt">
+        <img draggable="false" src="/assets/images/projects/ChatLink.PNG" alt="project" />
+        <div class="content">
+          <div class="tag">
+            <h3>Chat Link</h3>
+          </div>
+          <div class="desc">
+            <p>ChatLink is a messaging application that allows users to connect and communicate with each other in
+              real-time.</p>
+            <div style="font-size: 1.37rem" class="tech"><b>Tech Stack :</b> MongoDB | Express.js | React | Node.js | Redux</div>
+            <div class="demo"><b>Demo credentials:</b>
+              <div style="font-size: 1.4rem" class="credentials"><b>Email :</b> person.a@gmail.com | <b>Password :</b> persona123 <b>Email :</b>
+                person.b@gmail.com |
+                <b>Password :</b> personb123
+              </div>
+            </div>
+            <div class="btns">
+              <a href="https://chatlinkapp.netlify.app/login" class="btn" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+              <a href="https://github.com/GaneshR24/Chat-Link-Frontend" class="btn" target="_blank">Frontend <i
+                  class="fab fa-github"></i></a>
+              <a href="https://github.com/GaneshR24/Chat-link-Backend" class="btn" target="_blank">Backend <i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project - 2 -->
+      <div class="box tilt">
+        <img draggable="false" src="/assets/images/projects/BusBuddy.PNG" alt="project" />
+        <div class="content">
+          <div class="tag">
+            <h3>Bus Buddy</h3>
+          </div>
+          <div class="desc">
+            <p>Bus Buddy is a bus ticket booking application that helps users find bus routes allow users to search for
+              bus routes, and book tickets online.
+            </p>
+            <div style="font-size: 1.37rem" class="tech"><b>Tech Stack :</b> MongoDB | Express.js | React | Node.js | Redux</div>
+            <div class="demo"><b>Demo credentials:</b>
+              <div class="credentials"><b>Email :</b> admin@gmail.com | <b>Password:</b> admin123 <b>Email :</b>
+                user@gmail.com | <b>Password:</b>
+                user123
+              </div>
+            </div>
+            <div class="btns">
+              <a href="https://busbuddyapp.netlify.app/login" class="btn" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+              <a href="https://github.com/GaneshR24/Bus-Buddy-Frontend" class="btn" target="_blank">Frontend <i
+                  class="fab fa-github"></i></a>
+              <a href="https://github.com/GaneshR24/Bus-Buddy-Backend" class="btn" target="_blank">Backend <i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project - 3 -->
+      <div class="box tilt">
+        <img draggable="false" src="/assets/images/projects/MoneyTrack.PNG" alt="project" />
+        <div class="content">
+          <div class="tag">
+            <h3>Money Track</h3>
+          </div>
+          <div class="desc">
+            <p>Money Track is a application that helps users manage their personal finances. It allows users to track
+              their income and expenses</p>
+            <div class="tech"><b>Tech Stack :</b> MongoDB | Express.js | React | Node.js </div>
+            <div class="demo"><b>Demo credentials:</b>
+              <div class="credentials"><b>Email:</b> user@gmail.com | <b>Password:</b> user123</div>
+            </div>
+            <div class="btns">
+              <a href="https://moneytrack-app.netlify.app/login" class="btn" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+              <a href="https://github.com/GaneshR24/Money-Track-Frontend" class="btn" target="_blank">Frontend <i
+                  class="fab fa-github"></i></a>
+              <a href="https://github.com/GaneshR24/Money-Track-Backend" class="btn" target="_blank">Backend <i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project - 4 -->
+      <div class="box tilt">
+        <img draggable="false" src="/assets/images/projects/ResumeGenius.PNG" alt="project" />
+        <div class="content">
+          <div class="tag">
+            <h3>Resume Genius</h3>
+          </div>
+          <div class="desc">
+            <p>Resume Genius is a application that helps users create professional-looking resumes and provides sample
+              resume templates.</p>
+            <div class="tech"><b>Tech Stack :</b> MongoDB | Express.js | React | Node.js</div>
+            <div class="demo"><b>Demo credentials:</b>
+              <div class="credentials"><b>Email:</b> user@gmail.com | <b>Password:</b> user123</div>
+            </div>
+            <div class="btns">
+              <a href="https://resumegenius-app.netlify.app/login" class="btn" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+              <a href="https://github.com/GaneshR24/Resume-Genius-Frontend" class="btn" target="_blank">Frontend <i
+                  class="fab fa-github"></i></a>
+              <a href="https://github.com/GaneshR24/Resume-Genius-Backend" class="btn" target="_blank">Backend <i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project - 5 -->
+      <div class="box tilt">
+        <img draggable="false" src="/assets/images/projects/TodoMaster.PNG" alt="project" />
+        <div class="content">
+          <div class="tag">
+            <h3>Todo Master</h3>
+          </div>
+          <div class="desc">
+            <p>Todo Master is a task management application that helps users for managing todo items.</p>
+            <div class="tech"><b>Tech Stack :</b> MongoDB | Express.js | React | Node.js</div>
+            <div class="demo"><b>Demo credentials:</b>
+              <div class="credentials"><b>Email:</b> user@gmail.com | <b>Password:</b> user123</div>
+            </div>
+            <div class="btns">
+              <a href="https://todomaster-app.netlify.app/login" class="btn" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+              <a href="https://github.com/GaneshR24/Todo-Master-Frontend" class="btn" target="_blank">Frontend <i
+                  class="fab fa-github"></i></a>
+              <a href="https://github.com/GaneshR24/Todo-Master-Backend" class="btn" target="_blank">Backend <i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project - 6 -->
+      <div class="box tilt">
+        <img draggable="false" style="height: 275px;" src="/assets/images/projects/WeatherApp.PNG" alt="project" />
+        <div class="content">
+          <div class="tag">
+            <h3>Weather App</h3>
+          </div>
+          <div class="desc">
+            <p>This is a weather app built using React JS and OpenWeatherMap API that provides current weather
+              conditions for any location.</p>
+            <div class="tech"><b>Tech Stack :</b> React </div>
+
+            <div class="btns">
+              <a href="https://myweatherapp-weather.netlify.app/" class="btn" target="_blank"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+              <a href="https://github.com/GaneshR24/Weather-App" class="btn" target="_blank">Frontend <i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- work project section ends -->
+
+  <!-- contact section starts -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="heading"><i class="fas fa-headset"></i> Contact <span> Me </span></h2>
+      <div class="contact-content">
+        <div class="column left">
+          <p class="letsThing">Thank you for visiting my portfolio website.<br>Connect with me over socials. </p>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">Ganesh R</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">Salem, Tamil Nadu, India</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-mobile-alt"></i>
+              <div class="info">
+                <div class="head">Mobile</div>
+                <div class="sub-title">+91-6383329762</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column right">
+          <div class="icons">
+            <div class="text">Contact Info</div>
+            <div class="row">
+              <a href="mailto:ganeshravichandran24@gmail.com" target="_blank">
+                <img src="assets/images/gmail.png" class="gmailImg">
+              </a>
+              <div class="info-right">
+                <div class="head"><a href="mailto:ganeshravichandran24@gmail.com" target="_blank">Email</a></div>
+                <a href="mailto:ganeshravichandran24@gmail.com" class="sub-title">ganeshravichandran24@gmail.com
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <a href="https://www.linkedin.com/in/ganeshr24/" target="_blank">
+              <img src="assets/images/linkedin.png" class="linkedInImg">
+            </a>
+            <div class="info-right">
+              <div class="head"><a href="https://www.linkedin.com/in/ganeshr24/" target="_blank">LinkedIn</a></div>
+              <a href="https://www.linkedin.com/in/ganeshr24/" target="_blank" class="sub-title">ganeshr24</a>
+            </div>
+          </div>
+          <br>
+          <div class="text">See all other my works on Github</div>
+          <div class="row">
+            <a href="https://github.com/GaneshR24" target="_blank">
+              <img src="assets/images/github.png" class="githubImg">
+            </a>
+            <div class="info-right">
+              <div class="head"><a href="https://github.com/GaneshR24" target="_blank">Github</a></div>
+              <a href="https://github.com/GaneshR24" target="_blank" class="sub-title">GaneshR24</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- contact section ends -->
+
+  <!-- footer section starts -->
+  <section class="footer">
+    <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a
+        href="https://www.linkedin.com/in/ganeshr24/" target="_blank"> Ganesh R</a></h1>
+  </section>
+  <!-- footer section ends -->
+
+  <!-- scroll top btn -->
+  <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+  <!-- scroll back to top -->
+
+
+
+  <!-- jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- typed.js cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- particle.js links -->
+  <script src="./assets/js/particles.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+
+  <!-- vanilla tilt.js links -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+    integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- scroll reveal anim -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- lottie-files -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
