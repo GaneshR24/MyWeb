@@ -515,8 +515,8 @@ header .navbar ul li a:hover {
   height: 30rem;
 }
 .work .box-container .box img {
-  height: 250px;
-  width: 435px;
+  height: 100%;
+  width: 100%;
   object-fit: fill;
 }
 .work .box-container .box .content {
