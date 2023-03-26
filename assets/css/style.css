@@ -574,9 +574,9 @@ header .navbar ul li a:hover {
 .work .desc .btns .btn {
   line-height: 0;
   display: inline;
-  padding: 1rem 1.75rem;
+  padding: 1rem 1.5rem;
   border-radius: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #fff;
   background: rgb(12, 12, 12);
   margin-right: 2rem;
